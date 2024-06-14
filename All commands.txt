@@ -1,0 +1,70 @@
+Navigation and File Management:
+
+ls: List directory contents.
+cd: Change directory.
+pwd: Print working directory.
+mkdir: Make directories.
+rmdir: Remove empty directories.
+cp: Copy files or directories.
+mv: Move or rename files or directories.
+rm: Remove files or directories.
+touch: Create an empty file or update file timestamps.
+File Viewing and Manipulation:
+
+cat: Concatenate and display files.
+less: View file content one screenful at a time.
+head: Output the first part of files.
+tail: Output the last part of files.
+grep: Print lines matching a pattern.
+sed: Stream editor for filtering and transforming text.
+awk: Pattern scanning and processing language.
+File Permissions:
+
+chmod: Change file mode bits (permissions).
+chown: Change file owner and group.
+Process Management:
+
+ps: Report a snapshot of current processes.
+kill: Send signals to processes.
+System Information:
+
+top: Display Linux tasks.
+df: Report file system disk space usage.
+du: Estimate file space usage.
+free: Display amount of free and used memory in the system.
+uname: Print system information.
+Text Manipulation:
+
+echo: Display a line of text/string.
+printf: Format and print data.
+cut: Remove sections from each line of files.
+paste: Merge lines of files.
+tr: Translate or delete characters.
+Networking:
+
+ping: Send ICMP ECHO_REQUEST to network hosts.
+ifconfig: Configure a network interface.
+ip: Show/manipulate routing, devices, policy routing, and tunnels.
+Compression and Archiving:
+
+tar: Archive files.
+gzip, gunzip: Compress or expand files.
+zip, unzip: Package and compress (zip) files.
+Package Management:
+
+apt-get, apt: Package handling utility for Debian-based systems.
+yum, dnf: Package management utilities for RPM-based systems.
+User and Group Management:
+
+useradd, usermod, userdel: Commands for user account management.
+groupadd, groupmod, groupdel: Commands for group management.
+Shell Scripting:
+
+bash, sh: Execute shell scripts.
+chmod +x script.sh; ./script.sh: Make a script executable and run it.
+Miscellaneous:
+
+date: Print or set the system date and time.
+history: Display command history.
+man: Display the manual page for a command.
+sudo: Execute a command as another user, typically the superuser.

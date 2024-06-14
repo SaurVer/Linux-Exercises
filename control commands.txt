@@ -1,0 +1,16 @@
+Control Characters for Command Line Editing:
+1. Ctrl + A: Move the cursor to the beginning of the line.
+2. Ctrl + E: Move the cursor to the end of the line.
+3. Ctrl + U: Clear the part of the line before the cursor.
+4. Ctrl + K: Clear the part of the line after the cursor.
+5. Ctrl + W: Delete the word before the cursor.
+6. Ctrl + Y: Yank (paste) the text that was cut by Ctrl + U, Ctrl + K, or Ctrl + W.
+7. Ctrl + B: Move the cursor backward one character.
+8. Ctrl + F: Move the cursor forward one character.
+9. Alt + B: Move the cursor backward one word.
+10. Alt + F: Move the cursor forward one word.
+11. Ctrl + D: Delete the character under the cursor.
+12. Ctrl + H: Delete the character before the cursor (similar to backspace).
+13. Ctrl + L: Clear the screen (similar to the clear command).
+14. Ctrl + P: Recall the previous command in the command history.
+15. Ctrl + N: Recall the next command in the command history.

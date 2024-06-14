@@ -1,0 +1,50 @@
+    1  cat /user/bin
+    2  ls
+    3  cat /usr/bin
+    4  cat /etc/passwd
+    5  cat /etc/passwd | wc
+    6  cat /etc/passwd | wc -l
+    7  cat /etc/passwd > passwd.txt
+    8  cat passwd.txt
+    9  echo passwd.txt
+   10  cat some_non_exixting_file.txt && echo "file_exists"
+   11  cat passwd.txt && echo "file_exists"
+   12* 
+   13  log
+   14  job
+   15  ps aux
+   16  ps aux >> process.txt
+   17  cat passwd.txt && echo clear
+   18  clear
+   19  ls -l /usr/bin
+   20  ls -l /usr/bin | wc -l
+   21  ls -l /wrongpath
+   22  clear
+   23  STR=$'1.THIS IS FIRST LLINE \n2. This is second line\n 3. This is third line'
+   24  STR
+   25  echo '$STR'
+   26  echo "$STR"
+   27  echo "$STR" >> TEXTFILE.TXT
+   28  CAT TEXTFILE.TXT
+   29  cat TEXTFILE.TXT
+   30  cat TEXTFILE.TXT | sort -r
+   31  cat TEXTFILE.TXT | sort -r | less
+   32  cat TEXTFILE.TXT | grep 3
+   33  echo "something" > append.txt
+   34  cat append.txt
+   35  echo 'something else' >> append.txt
+   36  cat append.txt
+   37  ls -l /wrong/path
+   38  ls -l /wrong/path 2> /dev/null
+   39  tail -f /var/lo
+   40  tail -f /var/log
+   41  tail -f /var/log/
+   42  tail -f /var/log/dpkg.log
+   43  tail -n 3 /var/log/dpkg.log
+   44  tail -n 4 /var/log/dpkg.log
+   45  head -n 4 /var/log/dpkg.log
+   46  history
+   47  history less
+   48  history | less
+   49  ls -l /wrong/path 2> /dev/null
+   50  history >> command_history.txt
