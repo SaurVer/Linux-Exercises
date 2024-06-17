@@ -48,3 +48,16 @@
    48  history | less
    49  ls -l /wrong/path 2> /dev/null
    50  history >> command_history.txt
+    1  chmod +x if-else.sh
+    2  ./if-else.sh
+    3  cat if-sles.sh
+    4  cat if-else.sh
+    5  echo if-else.sh
+    6  ./if-else.sh
+    7  ./and.sh
+    8  chmod +x and.sh
+    9  ./and.sh
+   10  rm *.txt
+   11  false || echo 'worked'
+   12  true || echo 'worked'
+   13  history >> command_history.txt
